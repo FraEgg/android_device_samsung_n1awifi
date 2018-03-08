@@ -7,3 +7,18 @@ ro.radio.noril=yes
 
 # UI
 ro.sf.lcd_density=320
+
+# AptXHD
+ persist.bt.enableAptXHD=true
+ 
+# 8224 Freak Tweaks
+# -----------------
+
+lockscreen.rot_override = true
+net.tethering.noprovisioning=true
+ro.hdmi.enable=true
+ro.hdmi.mirror.enable=true
+ 
+# Fix Cast/Miracast
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0
